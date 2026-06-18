@@ -1,0 +1,10 @@
+archive/
+trainingpeaks-mcp/
+memory/
+.claude/
+.mcp.json
+CLAUDE.md
+*.gpx
+*.json
+plan.json
+_plan_js_tmp.js
