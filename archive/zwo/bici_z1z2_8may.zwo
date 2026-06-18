@@ -1,0 +1,26 @@
+<workout_file>
+    <author>Entrenador David - Plan Soplao</author>
+    <name>Bici Z1-Z2 30min mantenimiento pre-16km</name>
+    <description>Mantenimiento cardiovascular sin impacto, 2 dias antes del 16km. Cadencia >85rpm, FC 125-145, resistencia baja. NO meter intensidad. Tras la bici: Rutina B fuerza tibial LIGERA (2 series por ejercicio, sin excentrico fuerte). CANCELAR si test del miercoles dolio o si pulso reposo >55 / HRV <65 hoy.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="mantenimiento"/>
+        <tag name="z2"/>
+        <tag name="pre-carrera"/>
+    </tags>
+    <workout>
+        <SteadyState Duration="300" Power="0.50" Cadence="88">
+            <textevent timeoffset="0" message="Calentamiento 5 min - cadencia 85-90 rpm"/>
+        </SteadyState>
+        <SteadyState Duration="1200" Power="0.62" Cadence="90">
+            <textevent timeoffset="0" message="Z2 continuo - FC 130-145 - cad >85"/>
+            <textevent timeoffset="300" message="Resistencia baja, no aprietes"/>
+            <textevent timeoffset="600" message="Mitad - dos dias para el 16km, hoy es ahorro"/>
+            <textevent timeoffset="900" message="Quedan 5 min - sigue suave"/>
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.45" Cadence="85">
+            <textevent timeoffset="0" message="Vuelta calma 5 min"/>
+            <textevent timeoffset="240" message="Al acabar: Rutina B 2 series, sin excentrico fuerte"/>
+        </SteadyState>
+    </workout>
+</workout_file>

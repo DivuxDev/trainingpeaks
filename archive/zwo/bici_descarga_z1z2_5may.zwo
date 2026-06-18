@@ -1,0 +1,28 @@
+<workout_file>
+    <author>Entrenador David - Plan Soplao</author>
+    <name>Bici descarga Z1-Z2 45min (post-masaje)</name>
+    <description>Bici muy suave post-descarga de piernas. Cadencia >85rpm, FC objetivo 125-140. Recovery activo, no fatigar. Sustituye al trote test (movido a jueves 7 may en hierba). Lesion: periostitis tibial bilateral - sin esfuerzos de pierna pesados.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="recovery"/>
+        <tag name="z2"/>
+        <tag name="periostitis"/>
+    </tags>
+    <workout>
+        <SteadyState Duration="300" Power="0.50" Cadence="88">
+            <textevent timeoffset="0" message="Calentamiento 5 min - cadencia 85-90 rpm"/>
+            <textevent timeoffset="180" message="Suelta tobillos - circulos lentos en cada pedalada"/>
+        </SteadyState>
+        <SteadyState Duration="2100" Power="0.62" Cadence="90">
+            <textevent timeoffset="0" message="Z1-Z2 continuo - FC 125-140 - cadencia >85"/>
+            <textevent timeoffset="300" message="Comprueba postura - hombros sueltos"/>
+            <textevent timeoffset="900" message="Recuerda: hoy es recuperacion, no entreno"/>
+            <textevent timeoffset="1500" message="Si notas pinchazo en tibial, baja intensidad"/>
+            <textevent timeoffset="1800" message="Quedan 5 min - sigue igual de suave"/>
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.45" Cadence="85">
+            <textevent timeoffset="0" message="Vuelta a la calma 5 min"/>
+            <textevent timeoffset="240" message="Casi - estiramientos suaves al bajar"/>
+        </SteadyState>
+    </workout>
+</workout_file>

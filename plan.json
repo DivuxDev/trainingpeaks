@@ -1,0 +1,649 @@
+{
+  "athlete": {
+    "name": "David Prado",
+    "athleteId": 6257536,
+    "email": "davidpradoTP@gmail.com"
+  },
+  "plan": {
+    "name": "Mantenimiento y Cobreces 2026",
+    "startDate": "2026-05-06",
+    "endDate": "2026-06-30",
+    "targetEvent": {
+      "date": "2026-06-21",
+      "name": "Speed Trail Cobreces 16K +600m"
+    },
+    "completedEvent": {
+      "date": "2026-05-23",
+      "name": "El Soplao 21km +800m — COMPLETADO",
+      "result": "21.29km · 2h51min · TSS 234.85 · tibial OK"
+    },
+    "phases": [
+      {
+        "name": "Recuperacion post-Soplao",
+        "start": "2026-05-23",
+        "end": "2026-05-31",
+        "tssTarget": 60,
+        "notes": "Carga minima. Drenaje y trotes muy suaves. Sin gimnasio hasta semana 1 junio."
+      },
+      {
+        "name": "Recuperacion activa",
+        "start": "2026-06-01",
+        "end": "2026-06-07",
+        "tssTarget": 165,
+        "notes": "Volumen suave. Primer gimnasio de pierna LIGERO el lunes 1 jun."
+      },
+      {
+        "name": "Ultima semana de carga",
+        "start": "2026-06-08",
+        "end": "2026-06-14",
+        "tssTarget": 220,
+        "notes": "Unica semana real de estimulo antes de Cobreces. Un progresivo Z3, una tirada 1h10. Ultimo gimnasio de pierna el lunes 8."
+      },
+      {
+        "name": "Taper Cobreces",
+        "start": "2026-06-15",
+        "end": "2026-06-21",
+        "tssTarget": 70,
+        "notes": "Llegar fresco. Sin pierna de gym desde el 14. Activacion jueves 18 + strides. Descanso o paseo sabado 20."
+      },
+      {
+        "name": "Recuperacion post-Cobreces",
+        "start": "2026-06-22",
+        "end": "2026-06-30",
+        "tssTarget": 90,
+        "notes": "3 dias descanso total. Trotes suaves a partir del jueves 25. Sin intensidad."
+      }
+    ],
+    "notes": "Soplao completado 23 mayo. Fitness construida se mantiene — CTL decae lento. El trabajo para Cobreces es recuperar bien y llegar fresco, no acumular volumen. Una semana de carga honesta (8-14 jun) + taper es suficiente. Regla tibial activa: >2/10 durante carrera = para o sustituye. Estructura semanal: 4 sesiones (3 running + 1 gym pierna). Gym siempre en lunes. Las semanas de recuperacion post-carrera son excepcion — menos sesiones hasta que el cuerpo vuelva."
+  },
+  "workouts": [
+    {
+      "date": "2026-05-06",
+      "sport": "Run",
+      "title": "Trote test hierba 25min — EJECUTADO",
+      "status": "completed",
+      "tssPlanned": 28,
+      "tssActual": 57,
+      "distanceActualKm": 5.29,
+      "description": "EJECUTADO: 5.29km, TSS 57 (planificado 28). Patron recurrente — overshoot x2 vs plan. Tibial OK durante y despues."
+    },
+    {
+      "date": "2026-05-07",
+      "sport": "Other",
+      "title": "Descanso total — EJECUTADO",
+      "status": "completed",
+      "tssPlanned": 0,
+      "tssActual": 0,
+      "description": "Descanso. HRV 65 (umbral alarma) — gym cancelado para proteger tibial antes del 16km."
+    },
+    {
+      "date": "2026-05-08",
+      "sport": "Bike",
+      "title": "Bici Z1-Z2 30min + Rutina B — EJECUTADO",
+      "status": "completed",
+      "tssPlanned": 20,
+      "tssActual": 17,
+      "description": "EJECUTADO: bici en lugar de run (decision correcta 2 dias antes del 16km). TSS 17. Rutina B ligera post-bici."
+    },
+    {
+      "date": "2026-05-09",
+      "sport": "Other",
+      "title": "Descanso pre-carrera — EJECUTADO",
+      "status": "completed",
+      "tssPlanned": 0,
+      "tssActual": 0,
+      "description": "Descanso completo."
+    },
+    {
+      "date": "2026-05-10",
+      "sport": "Run",
+      "title": "Trail 17.6km +700m — EJECUTADO 2:10:59",
+      "status": "completed",
+      "tssPlanned": 140,
+      "tssActual": 205,
+      "distanceActualKm": 17.68,
+      "description": "EJECUTADO: 17.68km, +700m, 2:10:59, TSS 205. Tibial OK durante toda la carrera y al dia siguiente. HRV al dia siguiente: 49 (alarma roja)."
+    },
+    {
+      "date": "2026-05-11",
+      "sport": "Other",
+      "title": "Descanso total post-carrera — EJECUTADO",
+      "status": "completed",
+      "tssPlanned": 0,
+      "tssActual": 0,
+      "description": "Descanso. HRV 49 (minimo historico del bloque), BB avg 19, pulso 54."
+    },
+    {
+      "date": "2026-05-12",
+      "sport": "Other",
+      "title": "Descanso — EJECUTADO",
+      "status": "completed",
+      "tssPlanned": 0,
+      "tssActual": 0,
+      "description": "Sin registro de entreno en TP. Probable descanso o drenaje no subido."
+    },
+    {
+      "date": "2026-05-13",
+      "sport": "Run",
+      "title": "Trail 9.3km — EJECUTADO",
+      "status": "completed",
+      "tssPlanned": 85,
+      "tssActual": 110,
+      "distanceActualKm": 9.33,
+      "description": "EJECUTADO: 9.33km, 1h7min, TSS 110 (planificado 85). HRV 68, BB avg 60, pulso 48."
+    },
+    {
+      "date": "2026-05-14",
+      "sport": "Other",
+      "title": "Descanso total — EJECUTADO",
+      "status": "completed",
+      "tssPlanned": 0,
+      "tssActual": 0,
+      "description": "Descanso. HRV 62, BB avg 59, pulso 47."
+    },
+    {
+      "date": "2026-05-15",
+      "sport": "Run",
+      "title": "Rodaje 45min Z2-Z3 — EJECUTADO",
+      "status": "completed",
+      "tssPlanned": 40,
+      "tssActual": 78,
+      "distanceActualKm": 7.04,
+      "description": "EJECUTADO: 7.04km, 41min, TSS 78 (planificado 40). HRV 79 esa manana. Vuelo a Canarias esa tarde."
+    },
+    {
+      "date": "2026-05-16",
+      "sport": "Other",
+      "title": "Llegada Canarias — descanso",
+      "status": "completed",
+      "tssPlanned": 0,
+      "tssActual": 0,
+      "description": "Viaje + llegada a Canarias. Sin actividad registrada. HRV 65 al dia siguiente."
+    },
+    {
+      "date": "2026-05-17",
+      "sport": "Other",
+      "title": "Canarias — descanso forzado",
+      "status": "completed",
+      "tssPlanned": 22,
+      "tssActual": 0,
+      "description": "HRV 57 (alarma roja), BB avg 21, pulso 53, sueno 4.5h — cuerpo en rojo. Plan de rodaje cancelado correctamente."
+    },
+    {
+      "date": "2026-05-18",
+      "sport": "Walk",
+      "title": "Canarias — actividad montana (no registrada en TP)",
+      "status": "completed",
+      "tssPlanned": 0,
+      "tssActual": null,
+      "description": "Sin registro en TP. BB avg 11.6 al dia siguiente — el valor mas bajo de todo el bloque. Evidencia de esfuerzo significativo aunque no quedo subido."
+    },
+    {
+      "date": "2026-05-19",
+      "sport": "Run",
+      "title": "Canarias: Hiking 9.9km + Trail 8.9km — EJECUTADO",
+      "status": "completed",
+      "tssPlanned": 20,
+      "tssActual": 64,
+      "distanceActualKm": 18.81,
+      "description": "EJECUTADO: Hiking 4h10 (9.9km, TSS 40) + Trail 3h (8.9km, TSS 25). Total 7h+ de actividad. Mucho mas que el trote opcional previsto."
+    },
+    {
+      "date": "2026-05-20",
+      "sport": "Other",
+      "title": "Vuelta Canarias — descanso completo",
+      "status": "completed",
+      "tssPlanned": 0,
+      "tssActual": 0,
+      "description": "Vuelo de vuelta. Descanso. Inicio taper final."
+    },
+    {
+      "date": "2026-05-21",
+      "sport": "Other",
+      "title": "Descanso completo — EJECUTADO",
+      "status": "completed",
+      "tssPlanned": 0,
+      "tssActual": 0,
+      "description": "Descanso vispera-2. Pulso 50, tibias con agujetas musculares post-Canarias, nada preocupante."
+    },
+    {
+      "date": "2026-05-22",
+      "sport": "Run",
+      "title": "Activacion 15min + strides — vispera El Soplao — EJECUTADO",
+      "status": "completed",
+      "tssPlanned": 12,
+      "tssActual": null,
+      "description": "Activacion de vispera. HRV 80, pulso 48. Cuerpo en optimas condiciones para la carrera del sabado."
+    },
+    {
+      "date": "2026-05-23",
+      "sport": "Run",
+      "title": "EL SOPLAO 21km +800m — COMPLETADO",
+      "status": "completed",
+      "tssPlanned": null,
+      "tssActual": 234.85,
+      "distanceActualKm": 21.29,
+      "description": "COMPLETADO: 21.29km, 2h51min, TSS 234.85. Fue bien. HRV previo 86, pulso 48 — optimo estado de salida."
+    },
+    {
+      "date": "2026-05-24",
+      "sport": "Run",
+      "title": "Rodaje post-Soplao — EJECUTADO",
+      "status": "completed",
+      "tssPlanned": 0,
+      "tssActual": 49.84,
+      "distanceActualKm": 4.03,
+      "description": "EJECUTADO: 4km, 21min, TSS 49.84 el dia despues del Soplao. Body Battery avg 5 ese dia (vacio total). No es un trote de recuperacion a esos numeros — el cuerpo pago la factura."
+    },
+    {
+      "date": "2026-05-25",
+      "sport": "Other",
+      "title": "Descanso — EJECUTADO",
+      "status": "completed",
+      "tssPlanned": 0,
+      "tssActual": 0,
+      "description": "Descanso. HRV 71 (recuperando hacia basal 75), pulso 51, BB avg 57. Recuperacion bien encauzada."
+    },
+    {
+      "date": "2026-05-26",
+      "sport": "Other",
+      "title": "Descanso — EJECUTADO",
+      "status": "completed",
+      "tssPlanned": 0,
+      "tssActual": 0,
+      "description": "Descanso dia 3 post-Soplao."
+    },
+    {
+      "date": "2026-05-27",
+      "sport": "Run",
+      "title": "Drenaje 20-25min Z1",
+      "status": "planned",
+      "tssPlanned": 15,
+      "description": "Drenaje suave. FC maxima 130 bpm en cualquier momento — si sube, caminas. Ritmo muy suave >6:30/km, terreno llano. El objetivo es mover sangre, no entrenar. Maximo 25min aunque te encuentres bien de piernas. Manana empieza el entrenamiento real."
+    },
+    {
+      "date": "2026-05-28",
+      "sport": "Run",
+      "title": "Rodaje 40-45min Z2",
+      "status": "planned",
+      "tssPlanned": 45,
+      "description": "Primer rodaje real post-Soplao. FC 130-150 bpm. Terreno normal, puedes incluir algo de desnivel suave. Ritmo que puedas mantener una conversacion. Si el tibial aparece >2/10, paras y lo sustituyes por bici o descanso.",
+      "structure": {
+        "primaryIntensityMetric": "heartRateBpm",
+        "steps": [
+          {"name": "Calentamiento trote suave", "duration_seconds": 300, "intensity_min": 115, "intensity_max": 130, "intensityClass": "warmUp"},
+          {"name": "Rodaje Z2", "duration_seconds": 2100, "intensity_min": 130, "intensity_max": 150, "intensityClass": "active"},
+          {"name": "Vuelta a la calma", "duration_seconds": 300, "intensity_min": 110, "intensity_max": 130, "intensityClass": "coolDown"}
+        ]
+      }
+    },
+    {
+      "date": "2026-05-29",
+      "sport": "Other",
+      "title": "Descanso",
+      "status": "planned",
+      "tssPlanned": 0,
+      "description": "Descanso. Movilidad articular 10-15min si quieres hacer algo."
+    },
+    {
+      "date": "2026-05-30",
+      "sport": "Run",
+      "title": "Tirada 50-55min Z2 con desnivel",
+      "status": "planned",
+      "tssPlanned": 62,
+      "description": "Primera tirada con algo de miga post-Soplao. Z2 sostenido, algo de desnivel. FC 130-150, ritmo comodo todo el rato. No es donde se gana nada — es consolidar que el cuerpo esta volviendo bien.",
+      "structure": {
+        "primaryIntensityMetric": "heartRateBpm",
+        "steps": [
+          {"name": "Calentamiento", "duration_seconds": 300, "intensity_min": 115, "intensity_max": 130, "intensityClass": "warmUp"},
+          {"name": "Tirada Z2", "duration_seconds": 2700, "intensity_min": 130, "intensity_max": 150, "intensityClass": "active"},
+          {"name": "Vuelta a la calma", "duration_seconds": 300, "intensity_min": 110, "intensity_max": 130, "intensityClass": "coolDown"}
+        ]
+      }
+    },
+    {
+      "date": "2026-05-31",
+      "sport": "Other",
+      "title": "Descanso",
+      "status": "planned",
+      "tssPlanned": 0,
+      "description": "Descanso. Fin de la semana de recuperacion post-Soplao."
+    },
+    {
+      "date": "2026-06-01",
+      "sport": "Strength",
+      "title": "Gimnasio pierna LIGERO + core",
+      "status": "planned",
+      "tssPlanned": 20,
+      "description": "Primer gimnasio de pierna post-Soplao. Reactivacion neuromuscular, no busques carga. Sentadilla goblet 3x10 (ligero), peso muerto rumano 3x8, zancadas estaticas 2x10 por pierna, step-up unipodal 2x10, gemelo unipodal 3x12, soleo bilateral 3x12, plancha 3x45s, abdominales 3x20. ~55min. Si el tibial aparece en algun ejercicio, eliminas esa serie."
+    },
+    {
+      "date": "2026-06-02",
+      "sport": "Run",
+      "title": "Rodaje 40min Z2",
+      "status": "planned",
+      "tssPlanned": 40,
+      "description": "Rodaje aerobico. FC 130-150, terreno llano o suave, sin cuestas pronunciadas. Consolidacion aerobica.",
+      "structure": {
+        "primaryIntensityMetric": "heartRateBpm",
+        "steps": [
+          {"name": "Calentamiento", "duration_seconds": 300, "intensity_min": 115, "intensity_max": 130, "intensityClass": "warmUp"},
+          {"name": "Rodaje Z2", "duration_seconds": 1800, "intensity_min": 130, "intensity_max": 150, "intensityClass": "active"},
+          {"name": "Vuelta a la calma", "duration_seconds": 300, "intensity_min": 110, "intensity_max": 130, "intensityClass": "coolDown"}
+        ]
+      }
+    },
+    {
+      "date": "2026-06-03",
+      "sport": "Other",
+      "title": "Descanso",
+      "status": "planned",
+      "tssPlanned": 0,
+      "description": "Descanso."
+    },
+    {
+      "date": "2026-06-04",
+      "sport": "Run",
+      "title": "Rodaje 45min Z2",
+      "status": "planned",
+      "tssPlanned": 45,
+      "description": "Rodaje aerobico mantenimiento. FC 130-150. Puedes incluir algo de desnivel moderado si las piernas responden bien.",
+      "structure": {
+        "primaryIntensityMetric": "heartRateBpm",
+        "steps": [
+          {"name": "Calentamiento", "duration_seconds": 300, "intensity_min": 115, "intensity_max": 130, "intensityClass": "warmUp"},
+          {"name": "Rodaje Z2", "duration_seconds": 2100, "intensity_min": 130, "intensity_max": 150, "intensityClass": "active"},
+          {"name": "Vuelta a la calma", "duration_seconds": 300, "intensity_min": 110, "intensity_max": 130, "intensityClass": "coolDown"}
+        ]
+      }
+    },
+    {
+      "date": "2026-06-05",
+      "sport": "Other",
+      "title": "Descanso",
+      "status": "planned",
+      "tssPlanned": 0,
+      "description": "Descanso previo a la tirada del sabado."
+    },
+    {
+      "date": "2026-06-06",
+      "sport": "Run",
+      "title": "Tirada 55-60min Z2 con desnivel",
+      "status": "planned",
+      "tssPlanned": 65,
+      "description": "Primera tirada larga de la fase de recuperacion activa. Z2 sostenido, busca algo de desnivel — monte si tienes cerca. Hidratacion si supera 50min. Gel no necesario a esta duracion.",
+      "structure": {
+        "primaryIntensityMetric": "heartRateBpm",
+        "steps": [
+          {"name": "Calentamiento", "duration_seconds": 300, "intensity_min": 115, "intensity_max": 130, "intensityClass": "warmUp"},
+          {"name": "Tirada Z2 con desnivel", "duration_seconds": 3000, "intensity_min": 130, "intensity_max": 150, "intensityClass": "active"},
+          {"name": "Vuelta a la calma", "duration_seconds": 300, "intensity_min": 110, "intensity_max": 130, "intensityClass": "coolDown"}
+        ]
+      }
+    },
+    {
+      "date": "2026-06-07",
+      "sport": "Other",
+      "title": "Descanso",
+      "status": "planned",
+      "tssPlanned": 0,
+      "description": "Descanso cierre de semana."
+    },
+    {
+      "date": "2026-06-08",
+      "sport": "Strength",
+      "title": "Gimnasio pierna MODERADO + core",
+      "status": "planned",
+      "tssPlanned": 25,
+      "description": "Segundo gimnasio de pierna, primera vez con carga moderada. Sentadilla 3x12 (65-70% RM), peso muerto 3x10, zancadas 3x10 por pierna, step-up unipodal 3x12, gemelo unipodal 3x12, soleo bilateral 3x15, plancha 3x45s, abdominales 3x20. ~60min. ULTIMO gimnasio de pierna antes de Cobreces — a partir del domingo 14 sin pierna hasta despues de la carrera."
+    },
+    {
+      "date": "2026-06-09",
+      "sport": "Run",
+      "title": "Rodaje 45min Z2 + Rutina A tibial",
+      "status": "planned",
+      "tssPlanned": 45,
+      "description": "Rodaje aerobico. FC 130-150. Al terminar, Rutina A tibial: tibial anterior sentado 3x15, soleo sentado tempo 3-1-3 3x12, caminar talones 3x20m, gemelo unipodal 3x12, inversiones tobillo con banda 3x15.",
+      "structure": {
+        "primaryIntensityMetric": "heartRateBpm",
+        "steps": [
+          {"name": "Calentamiento", "duration_seconds": 300, "intensity_min": 115, "intensity_max": 130, "intensityClass": "warmUp"},
+          {"name": "Rodaje Z2", "duration_seconds": 2100, "intensity_min": 130, "intensity_max": 150, "intensityClass": "active"},
+          {"name": "Vuelta a la calma", "duration_seconds": 300, "intensity_min": 110, "intensity_max": 130, "intensityClass": "coolDown"}
+        ]
+      }
+    },
+    {
+      "date": "2026-06-10",
+      "sport": "Other",
+      "title": "Descanso",
+      "status": "planned",
+      "tssPlanned": 0,
+      "description": "Descanso."
+    },
+    {
+      "date": "2026-06-11",
+      "sport": "Run",
+      "title": "Sesion calidad: 45min progresivos Z3 en subida",
+      "status": "planned",
+      "tssPlanned": 60,
+      "description": "Primera sesion con algo de calidad post-Soplao. Sin series de pista, sin sprints. EJECUCION: 10min calentamiento Z2 → 4x4min subida a Z3 bajo (150-162 bpm) trotando bajada como recuperacion → 5min vuelta a la calma. Si las subidas van bien y el tibial no dice nada, puedes llegar a Z3 medio en la 3a y 4a repeticion.",
+      "structure": {
+        "primaryIntensityMetric": "heartRateBpm",
+        "steps": [
+          {"name": "Calentamiento Z2", "duration_seconds": 600, "intensity_min": 130, "intensity_max": 150, "intensityClass": "warmUp"},
+          {"type": "repetition", "reps": 4, "steps": [
+            {"name": "Subida progresiva Z3", "duration_seconds": 240, "intensity_min": 150, "intensity_max": 165, "intensityClass": "active"},
+            {"name": "Bajada trote recuperacion", "duration_seconds": 180, "intensity_min": 120, "intensity_max": 140, "intensityClass": "rest"}
+          ]},
+          {"name": "Vuelta a la calma", "duration_seconds": 300, "intensity_min": 110, "intensity_max": 130, "intensityClass": "coolDown"}
+        ]
+      }
+    },
+    {
+      "date": "2026-06-12",
+      "sport": "Other",
+      "title": "Descanso",
+      "status": "planned",
+      "tssPlanned": 0,
+      "description": "Descanso previo a la tirada larga del sabado."
+    },
+    {
+      "date": "2026-06-13",
+      "sport": "Run",
+      "title": "Tirada larga 1h10-1h15 Z2 monte",
+      "status": "planned",
+      "tssPlanned": 95,
+      "description": "La tirada mas larga del bloque pre-Cobreces. Z2 sostenido, terreno de monte con desnivel. Target +300-400m D+. Hidratacion desde el minuto 0, gel si supera 70min. No es para hacer tiempos — es para activar el estimulo aerobico de las piernas antes del taper.",
+      "structure": {
+        "primaryIntensityMetric": "heartRateBpm",
+        "steps": [
+          {"name": "Calentamiento", "duration_seconds": 300, "intensity_min": 115, "intensity_max": 130, "intensityClass": "warmUp"},
+          {"name": "Tirada Z2 monte", "duration_seconds": 3900, "intensity_min": 130, "intensity_max": 150, "intensityClass": "active"},
+          {"name": "Vuelta a la calma", "duration_seconds": 300, "intensity_min": 110, "intensity_max": 130, "intensityClass": "coolDown"}
+        ]
+      }
+    },
+    {
+      "date": "2026-06-14",
+      "sport": "Other",
+      "title": "Descanso",
+      "status": "planned",
+      "tssPlanned": 0,
+      "description": "Descanso. Inicio del taper para Cobreces. A partir de hoy sin ejercicios de pierna en gimnasio hasta despues de la carrera."
+    },
+    {
+      "date": "2026-06-15",
+      "sport": "Other",
+      "title": "Descanso — inicio taper Cobreces",
+      "status": "planned",
+      "tssPlanned": 0,
+      "description": "Primer dia de taper. Descanso."
+    },
+    {
+      "date": "2026-06-16",
+      "sport": "Run",
+      "title": "Rodaje facil 35min Z1-Z2",
+      "status": "planned",
+      "tssPlanned": 32,
+      "description": "Rodaje suave de mantenimiento. FC max 145 bpm. Terreno llano, ritmo muy comodo. El objetivo es mantener la activacion sin acumular fatiga.",
+      "structure": {
+        "primaryIntensityMetric": "heartRateBpm",
+        "steps": [
+          {"name": "Trote Z1-Z2", "duration_seconds": 2100, "intensity_min": 120, "intensity_max": 145, "intensityClass": "active"}
+        ]
+      }
+    },
+    {
+      "date": "2026-06-17",
+      "sport": "Other",
+      "title": "Descanso — taper Cobreces",
+      "status": "planned",
+      "tssPlanned": 0,
+      "description": "Descanso durante el taper."
+    },
+    {
+      "date": "2026-06-18",
+      "sport": "Run",
+      "title": "Activacion 25min Z2 + 3 strides",
+      "status": "planned",
+      "tssPlanned": 25,
+      "description": "Activacion pre-carrera. EJECUCION: 10min trote suave Z1-Z2 → 3x20s aceleracion progresiva hasta Z3 bajo (no sprint) con 90s recuperacion caminando entre medias → 5min trote suave vuelta calma. Recuerda a las piernas lo que les espera el domingo.",
+      "structure": {
+        "primaryIntensityMetric": "heartRateBpm",
+        "steps": [
+          {"name": "Trote suave Z2", "duration_seconds": 600, "intensity_min": 120, "intensity_max": 145, "intensityClass": "warmUp"},
+          {"type": "repetition", "reps": 3, "steps": [
+            {"name": "Stride 20s", "duration_seconds": 20, "intensity_min": 150, "intensity_max": 168, "intensityClass": "active"},
+            {"name": "Recuperacion caminando", "duration_seconds": 90, "intensity_min": 95, "intensity_max": 118, "intensityClass": "rest"}
+          ]},
+          {"name": "Trote suave cierre", "duration_seconds": 300, "intensity_min": 110, "intensity_max": 135, "intensityClass": "coolDown"}
+        ]
+      }
+    },
+    {
+      "date": "2026-06-19",
+      "sport": "Other",
+      "title": "Descanso — vispera-2 Cobreces",
+      "status": "planned",
+      "tssPlanned": 0,
+      "description": "Descanso. Hidratacion con electrolitos. Preparar material (zapatillas, numero, geles, ropa). Cena rica en hidratos."
+    },
+    {
+      "date": "2026-06-20",
+      "sport": "Other",
+      "title": "Paseo suave 20min o descanso — vispera Cobreces",
+      "status": "planned",
+      "tssPlanned": 5,
+      "description": "Vispera de Cobreces. Paseo suave 20min para estirar piernas o descanso total segun sensaciones. Sin correr. Desayuno normal, cena temprana con hidratos. A la cama pronto."
+    },
+    {
+      "date": "2026-06-21",
+      "sport": "Run",
+      "title": "SPEED TRAIL COBRECES 16K +600m",
+      "status": "planned",
+      "tssPlanned": null,
+      "description": "Desayuno 2.5-3h antes, rico en hidratos. Calentamiento: 8-10min trote suave + movilidad + 2-3 progresivos 15s. ESTRATEGIA: salida conservadora primeros 3km — es un speed trail, la gente sale fuerte. Subidas: mantener Z3 sostenido sin pasarte de Z4. Bajadas: paso tecnico controlado. Nutricion: gel o 40-50g hidratos en el km 7-8. REGLA TIBIAL: molestia >2/10 = bajar ritmo inmediatamente.",
+      "raceStrategy": {
+        "km_0_3": "Z2-Z3 bajo conservador, asentarse en el grupo",
+        "km_3_10": "Z3 sostenido, gestionar subida principal",
+        "km_10_16": "si tibias OK y piernas responden, Z3-Z4 bajo hasta meta",
+        "nutrition": "gel km7-8",
+        "alarmTibial": "molestia >2/10 = bajar ritmo, no parar salvo empeora"
+      }
+    },
+    {
+      "date": "2026-06-22",
+      "sport": "Other",
+      "title": "Descanso post-Cobreces",
+      "status": "planned",
+      "tssPlanned": 0,
+      "description": "Descanso total. Piernas elevadas si puedes. Hidratacion. Sin actividad."
+    },
+    {
+      "date": "2026-06-23",
+      "sport": "Other",
+      "title": "Descanso",
+      "status": "planned",
+      "tssPlanned": 0,
+      "description": "Descanso dia 2 post-Cobreces."
+    },
+    {
+      "date": "2026-06-24",
+      "sport": "Other",
+      "title": "Descanso",
+      "status": "planned",
+      "tssPlanned": 0,
+      "description": "Descanso dia 3 post-Cobreces."
+    },
+    {
+      "date": "2026-06-25",
+      "sport": "Run",
+      "title": "Trote suave 25min Z1",
+      "status": "planned",
+      "tssPlanned": 20,
+      "description": "Primer trote post-Cobreces. FC maxima 130 bpm. Terreno llano, ritmo muy suave. Solo si el cuerpo lo pide — si hay cansancio real, descansa un dia mas. Cobreces es 16K, recuperacion mas rapida que el Soplao."
+    },
+    {
+      "date": "2026-06-26",
+      "sport": "Other",
+      "title": "Descanso",
+      "status": "planned",
+      "tssPlanned": 0,
+      "description": "Descanso."
+    },
+    {
+      "date": "2026-06-27",
+      "sport": "Run",
+      "title": "Rodaje 35min Z2",
+      "status": "planned",
+      "tssPlanned": 35,
+      "description": "Rodaje suave de recuperacion activa. FC 130-145 bpm, terreno llano o suave.",
+      "structure": {
+        "primaryIntensityMetric": "heartRateBpm",
+        "steps": [
+          {"name": "Rodaje Z2 suave", "duration_seconds": 2100, "intensity_min": 125, "intensity_max": 145, "intensityClass": "active"}
+        ]
+      }
+    },
+    {
+      "date": "2026-06-28",
+      "sport": "Other",
+      "title": "Descanso",
+      "status": "planned",
+      "tssPlanned": 0,
+      "description": "Descanso."
+    },
+    {
+      "date": "2026-06-29",
+      "sport": "Run",
+      "title": "Rodaje 35min Z2",
+      "status": "planned",
+      "tssPlanned": 35,
+      "description": "Rodaje suave cierre de mes. FC 130-145 bpm.",
+      "structure": {
+        "primaryIntensityMetric": "heartRateBpm",
+        "steps": [
+          {"name": "Rodaje Z2 suave", "duration_seconds": 2100, "intensity_min": 125, "intensity_max": 145, "intensityClass": "active"}
+        ]
+      }
+    },
+    {
+      "date": "2026-06-30",
+      "sport": "Other",
+      "title": "Descanso — cierre junio",
+      "status": "planned",
+      "tssPlanned": 0,
+      "description": "Descanso. Fin del bloque. A partir de julio planificar segun nuevas carreras que se vayan apuntando."
+    }
+  ],
+  "intensityZones": {
+    "heartRateBpm": {
+      "Z1_recovery": "<130",
+      "Z2_aerobic_easy": "130-150",
+      "Z3_aerobic_moderate": "150-165",
+      "Z4_threshold": "165-175",
+      "Z5_VO2": "175-185"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "trainingpeaks": {
+      "command": "C:\\Users\\david\\Desktop\\trainingpeaks\\trainingpeaks-mcp\\.venv\\Scripts\\tp-mcp.exe",
+      "args": ["serve"]
+    }
+  }
+}

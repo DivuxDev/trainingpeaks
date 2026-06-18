@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__trainingpeaks__tp_get_fitness",
+      "mcp__trainingpeaks__tp_get_metrics",
+      "mcp__trainingpeaks__tp_create_workout",
+      "mcp__trainingpeaks__tp_get_profile",
+      "mcp__trainingpeaks__tp_get_workouts",
+      "mcp__trainingpeaks__tp_get_weekly_summary"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "trainingpeaks"
+  ]
+}

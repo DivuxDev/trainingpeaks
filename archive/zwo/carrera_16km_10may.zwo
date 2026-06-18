@@ -1,0 +1,41 @@
+<workout_file>
+    <author>Entrenador David - Plan Soplao</author>
+    <name>Carrera 16km +400m Z2-Z3 (entreno largo, NO competicion)</name>
+    <description>ESTRATEGIA: ENTRENO LARGO, NO COMPETICION. Ritmo Z2-Z3 (FC 145-165). Salida CONSERVADORA primeros 3km. Subida principal: ritmo controlado, NO atacar. Bajadas SUAVES (machacan tibial mas que las subidas). Hidratacion + gel cada 45 min. RETIRADA si dolor >3/10 en cualquier momento - es entreno, no Soplao. Tras la carrera: hielo tibias 15min x3 al dia.</description>
+    <sportType>run</sportType>
+    <tags>
+        <tag name="carrera"/>
+        <tag name="largo"/>
+        <tag name="z2-z3"/>
+    </tags>
+    <workout>
+        <SteadyState Duration="600" HrLow="100" HrHigh="135">
+            <textevent timeoffset="0" message="Calentamiento 10 min trote MUY suave + movilidad"/>
+            <textevent timeoffset="300" message="2-3 progresivos cortos de 15 seg para activar"/>
+        </SteadyState>
+        <SteadyState Duration="1200" HrLow="140" HrHigh="155">
+            <textevent timeoffset="0" message="PRIMEROS 3KM - SALIDA CONSERVADORA - FC <155"/>
+            <textevent timeoffset="300" message="Aguanta el ritmo - dejaras pasar gente, NO IMPORTA"/>
+            <textevent timeoffset="600" message="EVAL DOLOR tibial - si >3/10 retirada"/>
+            <textevent timeoffset="900" message="Sigue conservador - el cuerpo aun calentando"/>
+        </SteadyState>
+        <SteadyState Duration="3000" HrLow="145" HrHigh="165">
+            <textevent timeoffset="0" message="KM 3-12: Z2-Z3 controlado - subida principal"/>
+            <textevent timeoffset="300" message="Subidas: ritmo CONTROLADO, no atacar"/>
+            <textevent timeoffset="900" message="Gel + agua aprovecha pendiente suave"/>
+            <textevent timeoffset="1500" message="EVAL DOLOR cada 10 min - >3/10 paras"/>
+            <textevent timeoffset="2100" message="Bajadas: SUAVES - machacan el tibial"/>
+            <textevent timeoffset="2700" message="Quedan 4 km - sigue Z2-Z3"/>
+        </SteadyState>
+        <SteadyState Duration="1200" HrLow="150" HrHigh="170">
+            <textevent timeoffset="0" message="ULTIMOS 4KM - puedes subir un punto si todo bien"/>
+            <textevent timeoffset="300" message="Si tibial estable, mantienes ritmo"/>
+            <textevent timeoffset="600" message="Si tibial pica, BAJAS ritmo. Es entreno"/>
+            <textevent timeoffset="900" message="Final - termina entero, no roto"/>
+        </SteadyState>
+        <SteadyState Duration="600" HrLow="100" HrHigh="125">
+            <textevent timeoffset="0" message="Vuelta calma 10 min andar/trote muy suave"/>
+            <textevent timeoffset="300" message="Al llegar: hielo tibias 15min x3, foam roller"/>
+        </SteadyState>
+    </workout>
+</workout_file>

@@ -1,0 +1,28 @@
+<workout_file>
+    <author>Entrenador David - Plan Soplao</author>
+    <name>Trote test hierba 25min Z2 (filtro pre-16km)</name>
+    <description>FILTRO PRINCIPAL pre-16km. Terreno blando OBLIGATORIO (hierba/tierra, cero asfalto). Ritmo MUY suave (>6:00/km). Evaluacion dolor tibial cada 5 min. REGLA: si dolor >2/10 paras y vas a bici 30min. Si al dia siguiente queda dolor >1/10 al palpar tibia, se cancela el 16km del domingo.</description>
+    <sportType>run</sportType>
+    <tags>
+        <tag name="test"/>
+        <tag name="hierba"/>
+        <tag name="periostitis"/>
+    </tags>
+    <workout>
+        <SteadyState Duration="600" HrLow="110" HrHigh="130">
+            <textevent timeoffset="0" message="Calentamiento 10 min trote MUY suave + movilidad tobillo"/>
+            <textevent timeoffset="300" message="Sigue suave - cuerpo despertando"/>
+        </SteadyState>
+        <SteadyState Duration="1500" HrLow="135" HrHigh="150">
+            <textevent timeoffset="0" message="Z2 continuo - terreno blando - ritmo >6:00/km"/>
+            <textevent timeoffset="300" message="EVAL DOLOR 0-10 cada 5 min. Si >2/10 PARA"/>
+            <textevent timeoffset="600" message="EVAL DOLOR. Si tirante pero <2/10 sigue suave"/>
+            <textevent timeoffset="900" message="EVAL DOLOR. Mitad - como va el tibial?"/>
+            <textevent timeoffset="1200" message="EVAL DOLOR. Quedan 5 min, no aprietes"/>
+        </SteadyState>
+        <SteadyState Duration="300" HrLow="100" HrHigh="120">
+            <textevent timeoffset="0" message="Vuelta a la calma 5 min trote MUY suave"/>
+            <textevent timeoffset="180" message="Estiramientos suaves soleo + gemelo al acabar"/>
+        </SteadyState>
+    </workout>
+</workout_file>
