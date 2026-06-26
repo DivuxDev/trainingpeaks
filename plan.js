@@ -5,18 +5,17 @@ const PLAN_DATA = {
     "email": "davidpradoTP@gmail.com"
   },
   "plan": {
-    "name": "Post-Cobreces — 15K Julio · Carrera Agosto · HM Septiembre 2026",
+    "name": "Post-Cobreces — Salcedo Agosto · HM Septiembre 2026",
     "startDate": "2026-05-06",
-    "endDate": "2026-07-11",
+    "endDate": "2026-08-06",
     "targetEvent": {
-      "date": "2026-07-11",
-      "name": "15K Trail (nombre pendiente confirmar)"
+      "date": "2026-08-06",
+      "name": "Carrera de Salcedo 12K +200m"
     },
     "nextEvents": [
-      { "date": "2026-06-21", "name": "Speed Trail Cobreces 16K +600m" },
-      { "date": "2026-07-11", "name": "15K Trail (nombre pendiente)" },
-      { "date": "2026-08-04", "name": "Carrera agosto (distancia/desnivel pendiente confirmar)" },
-      { "date": "2026-09-01", "name": "Media Maratón asfalto (fecha exacta pendiente)" }
+      { "date": "2026-06-21", "name": "Speed Trail Cobreces 16K +600m — COMPLETADO" },
+      { "date": "2026-08-06", "name": "Carrera de Salcedo 12K +200m" },
+      { "date": "2026-09-12", "name": "Media Maratón asfalto — objetivo <=2h" }
     ],
     "completedEvents": [
       {
@@ -26,7 +25,8 @@ const PLAN_DATA = {
       },
       {
         "date": "2026-06-21",
-        "name": "Speed Trail Cobreces 16K +600m — COMPLETADO (resultado pendiente)"
+        "name": "Speed Trail Cobreces 16K +600m — COMPLETADO",
+        "result": "15.9km · ~2h05min · TSS 175.63 · tibial OK"
       }
     ],
     "phases": [
@@ -66,21 +66,42 @@ const PLAN_DATA = {
         "notes": "Primeros 3 dias suaves (lun-mie). Rodaje honesto mie 24. Segundo rodaje vie 26. Tirada larga monte dom 28 (7 dias post-carrera — el cuerpo esta listo). Sin gym pierna hasta el lunes 29 (8 dias post-Cobreces). TSS planificado 240, esperado ejecutado ~280-320 por patron de overshoot."
       },
       {
-        "name": "Carga pre-15K",
+        "name": "Carga 1",
         "start": "2026-06-29",
         "end": "2026-07-05",
         "tssTarget": 280,
-        "notes": "Unica semana de carga real antes del 15K del 11 jul. Gym lunes + progresivos martes + tirada larga jueves + rodaje viernes. ACWR vigilado: no superar x1.3 respecto a la cronica. TSS planificado 280, esperado ejecutado ~340-380. Patron de overshoot de David — las descripciones incluyen techo de FC como freno."
+        "notes": "Primera semana de carga post-Cobreces. Gym lunes (55-60% RM) + progresivos Z3 martes + descanso miercoles + tirada larga jueves + rodaje viernes. ACWR vigilado. TSS planificado 280, esperado ejecutado ~340-380."
       },
       {
-        "name": "Taper 15K julio",
+        "name": "Carga 2",
         "start": "2026-07-06",
-        "end": "2026-07-11",
-        "tssTarget": 60,
-        "notes": "Reduccion 50-60% volumen. Mantener intensidad puntual (strides martes). Sin calidad desde el miercoles. Descanso total vispera."
+        "end": "2026-07-12",
+        "tssTarget": 280,
+        "notes": "Segunda semana de carga. Gym lunes (65-70% RM) + rodaje Z2 martes + descanso + tirada larga jueves + rodaje viernes. TSS planificado 280."
+      },
+      {
+        "name": "Carga 3",
+        "start": "2026-07-13",
+        "end": "2026-07-19",
+        "tssTarget": 280,
+        "notes": "Tercera y ultima semana de carga. Gym lunes (70-75% RM) + progresivos Z3 martes + descanso + tirada larga jueves (la mas larga del bloque) + rodaje viernes. Cima de carga antes de la reduccion."
+      },
+      {
+        "name": "Reduccion gradual",
+        "start": "2026-07-20",
+        "end": "2026-07-26",
+        "tssTarget": 190,
+        "notes": "Reduccion ~30% volumen respecto a carga 3. Ultimo gym de pierna el lunes 20 (17 dias antes de Salcedo — fuera de la ventana de 12 dias). Tirada recortada a 1h10. Mantener frecuencia, reducir duracion."
+      },
+      {
+        "name": "Taper Salcedo",
+        "start": "2026-07-27",
+        "end": "2026-08-06",
+        "tssTarget": 80,
+        "notes": "Sin gym (dentro de los 12 dias previos a Salcedo). Rodaje suave lunes 27 + activacion con strides miercoles 29. Total TSS muy bajo. Objetivo: llegar fresco con las piernas activadas."
       }
     ],
-    "notes": "Calendario multi-carrera activo: 11 jul / 4 ago / sep HM. Solo hay 1 semana de carga real entre cada carrera — planificacion conservadora en volumen, mas agresiva en intensidad que en la etapa post-Soplao. Patron documentado de overshoot x1.3-2 — TSS planificados son el suelo, no el techo. Regla tibial activa: >2/10 durante carrera = parar o sustituir. Gym sesion Manu completa: hipthrust + sentadilla + peso muerto + gemelo excentrico + soleo + tibial con banda + inversiones tobillo. Sin gym pierna los 12 dias previos a cualquier carrera ni 7-9 dias post-carrera. Estructura estandar: 4 sesiones/semana (3 running + 1 gym lunes). Post-carrera: excepcion — menos sesiones."
+    "notes": "Calendario: Salcedo 6 ago / HM ~12 sep. 15K del 11 jul cancelado — hay 3 semanas de carga real disponibles antes del taper de Salcedo. Patron documentado de overshoot x1.3-2 — TSS planificados son el suelo, no el techo. Regla tibial activa: >2/10 durante carrera = parar o sustituir. Gym sesion completa: hip thrust + sentadilla + peso muerto + zancadas + gemelo excentrico + soleo + tibial con banda + inversiones tobillo. Sin gym pierna los 12 dias previos a cualquier carrera ni 7-9 dias post-carrera. Estructura estandar: 4 sesiones/semana (3 running + 1 gym lunes). Post-carrera: excepcion — menos sesiones."
   },
   "workouts": [
     {
@@ -713,10 +734,10 @@ const PLAN_DATA = {
     {
       "date": "2026-07-04",
       "sport": "Other",
-      "title": "Descanso — inicio taper 15K",
+      "title": "Descanso",
       "status": "planned",
       "tssPlanned": 0,
-      "description": "Descanso. Aqui empieza el taper. La semana de carga cerro el jueves. El cuerpo necesita asimilar 48h antes de la activacion del martes."
+      "description": "Descanso. La semana de carga cerro el jueves — el cuerpo necesita 48h para asimilar antes del gym del lunes."
     },
     {
       "date": "2026-07-05",
@@ -724,38 +745,29 @@ const PLAN_DATA = {
       "title": "Descanso",
       "status": "planned",
       "tssPlanned": 0,
-      "description": "Descanso dia 2 de taper."
+      "description": "Descanso. Preparar el gym del lunes: revision de ejercicios, sueno 8h+."
     },
     {
       "date": "2026-07-06",
-      "sport": "Run",
-      "title": "Rodaje suave Z2 — 30-35min (taper activo)",
+      "sport": "Strength",
+      "title": "GYM PIERNA — 2a sesion (65-70% RM)",
       "status": "planned",
       "tssPlanned": 35,
-      "description": "Taper activo. Mantener frecuencia, reducir duracion. FC maximo 150 bpm. Terreno llano o suave, sin cuestas. 30min es suficiente — no te enrolles.",
-      "structure": {
-        "primaryIntensityMetric": "heartRateBpm",
-        "steps": [
-          {"name": "Rodaje Z2 taper", "duration_seconds": 1800, "intensity_min": 125, "intensity_max": 150, "intensityClass": "active"}
-        ]
-      }
+      "description": "Segunda sesion de gym post-Cobreces. Subir carga al 65-70% RM respecto a la primera del 29 jun.\n\nBLOQUE A:\n• Hip thrust: 4x10-12\n• Sentadilla goblet o barra: 4x8-10\n• Peso muerto rumano: 3x10\n• Zancadas: 3x10/pierna\n\nBLOQUE B (tobillo y tibia — obligatorio):\n• Gemelo excentrico escalon: 3x12-15\n• Soleo sentado: 3x15 tempo 3-1-3\n• Tibial anterior con banda: 3x15\n• Inversiones/eversiones tobillo: 3x15 cada lado\n\nBLOQUE C (core):\n• Plancha: 3x50-60s\n• Dead bug: 3x10/lado\n\nDescanso bloque A: 2-3min. B y C: 60-90s."
     },
     {
       "date": "2026-07-07",
       "sport": "Run",
-      "title": "Activacion 20min Z2 + 3-4 strides",
+      "title": "Rodaje Z2 — 50min",
       "status": "planned",
-      "tssPlanned": 22,
-      "description": "Activacion pre-carrera. 20min trote suave Z2 → 3-4 strides de 15-20 segundos a ritmo vivo (NO sprint maximal). Los strides despiertan las fibras rapidas sin fatiga. Recuperacion 90s andando entre cada stride. Al dia siguiente: descanso.",
+      "tssPlanned": 62,
+      "description": "Rodaje aerobico solido. FC 130-150 bpm. Terreno llano o monte suave. Sin series ni progresivos. Si las piernas estan cargadas del gym: 45min y suficiente.",
       "structure": {
         "primaryIntensityMetric": "heartRateBpm",
         "steps": [
-          {"name": "Trote suave Z2", "duration_seconds": 1200, "intensity_min": 125, "intensity_max": 145, "intensityClass": "warmUp"},
-          {"type": "repetition", "reps": 4, "steps": [
-            {"name": "Stride 15-20s", "duration_seconds": 18, "intensity_min": 165, "intensity_max": 182, "intensityClass": "active"},
-            {"name": "Recuperacion andando", "duration_seconds": 90, "intensity_min": 100, "intensity_max": 120, "intensityClass": "rest"}
-          ]},
-          {"name": "Trote suave cierre", "duration_seconds": 300, "intensity_min": 110, "intensity_max": 130, "intensityClass": "coolDown"}
+          {"name": "Calentamiento", "duration_seconds": 300, "intensity_min": 115, "intensity_max": 130, "intensityClass": "warmUp"},
+          {"name": "Rodaje Z2", "duration_seconds": 2700, "intensity_min": 130, "intensity_max": 150, "intensityClass": "active"},
+          {"name": "Vuelta a la calma", "duration_seconds": 300, "intensity_min": 110, "intensity_max": 130, "intensityClass": "coolDown"}
         ]
       }
     },
@@ -765,10 +777,268 @@ const PLAN_DATA = {
       "title": "Descanso",
       "status": "planned",
       "tssPlanned": 0,
-      "description": "Descanso. Preparar material de carrera: zapatillas trail, numero, chip, geles, ropa."
+      "description": "Descanso. Recuperacion entre rodaje y tirada larga del jueves."
     },
     {
       "date": "2026-07-09",
+      "sport": "Run",
+      "title": "Tirada larga monte Z2 — 1h30-1h40",
+      "status": "planned",
+      "tssPlanned": 130,
+      "description": "Tirada larga principal de la semana de carga 2. FC 130-152 bpm. Terreno de monte con desnivel real. Ritmo conversacional. Llevar gel si supera 60min (40-50g CHO). Tibial >2/10 en cualquier momento: paras o caminas el resto.",
+      "structure": {
+        "primaryIntensityMetric": "heartRateBpm",
+        "steps": [
+          {"name": "Calentamiento trote suave", "duration_seconds": 600, "intensity_min": 115, "intensity_max": 135, "intensityClass": "warmUp"},
+          {"name": "Tirada larga Z2 monte", "duration_seconds": 4800, "intensity_min": 130, "intensity_max": 152, "intensityClass": "active"},
+          {"name": "Vuelta a la calma", "duration_seconds": 600, "intensity_min": 115, "intensity_max": 130, "intensityClass": "coolDown"}
+        ]
+      }
+    },
+    {
+      "date": "2026-07-10",
+      "sport": "Run",
+      "title": "Rodaje Z2 — 40min",
+      "status": "planned",
+      "tssPlanned": 50,
+      "description": "Rodaje de consolidacion. FC 128-148 bpm. Sin intensidad. Terreno llano o suave. Si las piernas estan muy pesadas tras la tirada de ayer: 35min y casa.",
+      "structure": {
+        "primaryIntensityMetric": "heartRateBpm",
+        "steps": [
+          {"name": "Calentamiento", "duration_seconds": 300, "intensity_min": 115, "intensity_max": 130, "intensityClass": "warmUp"},
+          {"name": "Rodaje Z2", "duration_seconds": 2100, "intensity_min": 128, "intensity_max": 148, "intensityClass": "active"},
+          {"name": "Vuelta a la calma", "duration_seconds": 300, "intensity_min": 110, "intensity_max": 128, "intensityClass": "coolDown"}
+        ]
+      }
+    },
+    {
+      "date": "2026-07-11",
+      "sport": "Other",
+      "title": "Descanso",
+      "status": "planned",
+      "tssPlanned": 0,
+      "description": "Descanso. Fin de la semana de carga 2."
+    },
+    {
+      "date": "2026-07-12",
+      "sport": "Other",
+      "title": "Descanso",
+      "status": "planned",
+      "tssPlanned": 0,
+      "description": "Descanso. Preparar la semana de carga 3 del lunes."
+    },
+    {
+      "date": "2026-07-13",
+      "sport": "Strength",
+      "title": "GYM PIERNA — 3a sesion (70-75% RM)",
+      "status": "planned",
+      "tssPlanned": 35,
+      "description": "Tercera sesion de gym: cima de la progresion de fuerza. Subir al 70-75% RM. Ultima sesion de gym pesado antes de la reduccion de carga.\n\nMismo protocolo que sesiones anteriores (hip thrust + sentadilla + peso muerto + zancadas) + bloque tibial/tobillo obligatorio + core. Descanso entre series bloque A: 2-3min."
+    },
+    {
+      "date": "2026-07-14",
+      "sport": "Run",
+      "title": "Progresivos Z3 subida — 50-55min",
+      "status": "planned",
+      "tssPlanned": 70,
+      "description": "Sesion de calidad de la semana de carga 3. Sin series de pista — subidas progresivas trotando.\n\nEJECUCION: 10-12min calentamiento Z2 → 4x5min subida progresiva Z3 bajo-medio (150-162 bpm) con bajada trotando como recuperacion (120-138 bpm, 3-4min) → 5min vuelta a la calma.\n\nPrimeras dos reps: no pasar de 158. En la 3a y 4a puedes llegar a 162-165 si va bien. Tibial >2/10: conviertes el resto en rodaje Z2.",
+      "structure": {
+        "primaryIntensityMetric": "heartRateBpm",
+        "steps": [
+          {"name": "Calentamiento Z2", "duration_seconds": 720, "intensity_min": 130, "intensity_max": 150, "intensityClass": "warmUp"},
+          {"type": "repetition", "reps": 4, "steps": [
+            {"name": "Subida progresiva Z3", "duration_seconds": 300, "intensity_min": 150, "intensity_max": 165, "intensityClass": "active"},
+            {"name": "Bajada trote recuperacion", "duration_seconds": 240, "intensity_min": 120, "intensity_max": 138, "intensityClass": "rest"}
+          ]},
+          {"name": "Vuelta a la calma", "duration_seconds": 300, "intensity_min": 110, "intensity_max": 130, "intensityClass": "coolDown"}
+        ]
+      }
+    },
+    {
+      "date": "2026-07-15",
+      "sport": "Other",
+      "title": "Descanso",
+      "status": "planned",
+      "tssPlanned": 0,
+      "description": "Descanso obligatorio entre progresivos Z3 y la tirada larga del jueves."
+    },
+    {
+      "date": "2026-07-16",
+      "sport": "Run",
+      "title": "Tirada larga monte Z2 — 1h35-1h45",
+      "status": "planned",
+      "tssPlanned": 140,
+      "description": "Tirada larga principal de la semana de carga 3 — la mas larga del bloque. FC 130-152 bpm. Recorrido de monte con desnivel real. Ritmo conversacional todo el rato. Gel desde el minuto 45-50. Esta es la tirada mas importante del bloque. Tibial >2/10: paras o caminas el resto.",
+      "structure": {
+        "primaryIntensityMetric": "heartRateBpm",
+        "steps": [
+          {"name": "Calentamiento trote suave", "duration_seconds": 600, "intensity_min": 115, "intensity_max": 135, "intensityClass": "warmUp"},
+          {"name": "Tirada larga Z2 monte", "duration_seconds": 5400, "intensity_min": 130, "intensity_max": 152, "intensityClass": "active"},
+          {"name": "Vuelta a la calma", "duration_seconds": 600, "intensity_min": 115, "intensity_max": 130, "intensityClass": "coolDown"}
+        ]
+      }
+    },
+    {
+      "date": "2026-07-17",
+      "sport": "Run",
+      "title": "Rodaje Z2 — 45min",
+      "status": "planned",
+      "tssPlanned": 55,
+      "description": "Rodaje de consolidacion. FC 128-150 bpm. Cierra la semana de carga 3. Si las piernas estan muy cargadas: 35-40min.",
+      "structure": {
+        "primaryIntensityMetric": "heartRateBpm",
+        "steps": [
+          {"name": "Calentamiento", "duration_seconds": 300, "intensity_min": 115, "intensity_max": 130, "intensityClass": "warmUp"},
+          {"name": "Rodaje Z2", "duration_seconds": 2400, "intensity_min": 128, "intensity_max": 150, "intensityClass": "active"},
+          {"name": "Vuelta a la calma", "duration_seconds": 300, "intensity_min": 110, "intensity_max": 128, "intensityClass": "coolDown"}
+        ]
+      }
+    },
+    {
+      "date": "2026-07-18",
+      "sport": "Other",
+      "title": "Descanso",
+      "status": "planned",
+      "tssPlanned": 0,
+      "description": "Descanso. Fin de la semana de carga 3."
+    },
+    {
+      "date": "2026-07-19",
+      "sport": "Other",
+      "title": "Descanso",
+      "status": "planned",
+      "tssPlanned": 0,
+      "description": "Descanso. Manana empieza la semana de reduccion gradual."
+    },
+    {
+      "date": "2026-07-20",
+      "sport": "Strength",
+      "title": "GYM PIERNA ligero — ULTIMO gym antes de Salcedo (17 dias)",
+      "status": "planned",
+      "tssPlanned": 30,
+      "description": "Ultimo gym de pierna antes de Salcedo (17 dias antes — fuera de la ventana de 12 dias). Carga reducida al 60-65% RM: activacion y mantenimiento, no estimulo nuevo. Protocolo completo (A+B+C) pero sin buscar fatiga."
+    },
+    {
+      "date": "2026-07-21",
+      "sport": "Run",
+      "title": "Rodaje Z2 — 40min",
+      "status": "planned",
+      "tssPlanned": 48,
+      "description": "Rodaje de reduccion. FC 130-148 bpm. Volumen recortado respecto a semanas anteriores. Sin intensidad extra. Terreno llano o suave.",
+      "structure": {
+        "primaryIntensityMetric": "heartRateBpm",
+        "steps": [
+          {"name": "Calentamiento", "duration_seconds": 300, "intensity_min": 115, "intensity_max": 130, "intensityClass": "warmUp"},
+          {"name": "Rodaje Z2", "duration_seconds": 2100, "intensity_min": 130, "intensity_max": 148, "intensityClass": "active"},
+          {"name": "Vuelta a la calma", "duration_seconds": 300, "intensity_min": 110, "intensity_max": 130, "intensityClass": "coolDown"}
+        ]
+      }
+    },
+    {
+      "date": "2026-07-22",
+      "sport": "Other",
+      "title": "Descanso",
+      "status": "planned",
+      "tssPlanned": 0,
+      "description": "Descanso."
+    },
+    {
+      "date": "2026-07-23",
+      "sport": "Run",
+      "title": "Tirada media Z2 — 1h10 (reduccion ~25%)",
+      "status": "planned",
+      "tssPlanned": 90,
+      "description": "Ultima tirada larga real antes de Salcedo. FC 130-150 bpm. Recortada ~25% respecto a las tiradas de carga. Misma intensidad, menos tiempo. Terreno de monte suave. Gel si supera 55min. Tibial >2/10: paras.",
+      "structure": {
+        "primaryIntensityMetric": "heartRateBpm",
+        "steps": [
+          {"name": "Calentamiento trote suave", "duration_seconds": 600, "intensity_min": 115, "intensity_max": 135, "intensityClass": "warmUp"},
+          {"name": "Tirada Z2 monte", "duration_seconds": 3000, "intensity_min": 130, "intensity_max": 150, "intensityClass": "active"},
+          {"name": "Vuelta a la calma", "duration_seconds": 600, "intensity_min": 115, "intensity_max": 130, "intensityClass": "coolDown"}
+        ]
+      }
+    },
+    {
+      "date": "2026-07-24",
+      "sport": "Run",
+      "title": "Rodaje suave Z2 — 35min",
+      "status": "planned",
+      "tssPlanned": 40,
+      "description": "Rodaje suave de cierre. FC max 148 bpm. Terreno llano. Sin urgencia. Preparar el cuerpo para la semana de taper.",
+      "structure": {
+        "primaryIntensityMetric": "heartRateBpm",
+        "steps": [
+          {"name": "Rodaje Z2 suave", "duration_seconds": 2100, "intensity_min": 125, "intensity_max": 148, "intensityClass": "active"}
+        ]
+      }
+    },
+    {
+      "date": "2026-07-25",
+      "sport": "Other",
+      "title": "Descanso",
+      "status": "planned",
+      "tssPlanned": 0,
+      "description": "Descanso. A partir de manana empieza el taper de Salcedo."
+    },
+    {
+      "date": "2026-07-26",
+      "sport": "Other",
+      "title": "Descanso",
+      "status": "planned",
+      "tssPlanned": 0,
+      "description": "Descanso."
+    },
+    {
+      "date": "2026-07-27",
+      "sport": "Run",
+      "title": "Rodaje suave Z2 — 30min (taper activo)",
+      "status": "planned",
+      "tssPlanned": 30,
+      "description": "Primer dia de taper. Sin gym (dentro de los 12 dias pre-Salcedo). FC maximo 148 bpm. Terreno llano. 30min punto — no te enrolles aunque te encuentres bien.",
+      "structure": {
+        "primaryIntensityMetric": "heartRateBpm",
+        "steps": [
+          {"name": "Rodaje Z2 taper", "duration_seconds": 1800, "intensity_min": 125, "intensity_max": 148, "intensityClass": "active"}
+        ]
+      }
+    },
+    {
+      "date": "2026-07-28",
+      "sport": "Other",
+      "title": "Descanso",
+      "status": "planned",
+      "tssPlanned": 0,
+      "description": "Descanso."
+    },
+    {
+      "date": "2026-07-29",
+      "sport": "Run",
+      "title": "Activacion 20-25min Z2 + 3-4 strides",
+      "status": "planned",
+      "tssPlanned": 20,
+      "description": "Activacion pre-carrera. 20-25min trote suave Z2 → 3-4 strides de 15-20s a ritmo vivo (no sprint maximal). Recuperacion 90s andando entre cada stride. Los strides despiertan las fibras rapidas sin acumular fatiga.",
+      "structure": {
+        "primaryIntensityMetric": "heartRateBpm",
+        "steps": [
+          {"name": "Trote suave Z2", "duration_seconds": 1350, "intensity_min": 125, "intensity_max": 145, "intensityClass": "warmUp"},
+          {"type": "repetition", "reps": 4, "steps": [
+            {"name": "Stride 15-20s", "duration_seconds": 18, "intensity_min": 165, "intensity_max": 182, "intensityClass": "active"},
+            {"name": "Recuperacion andando", "duration_seconds": 90, "intensity_min": 100, "intensity_max": 120, "intensityClass": "rest"}
+          ]},
+          {"name": "Trote suave cierre", "duration_seconds": 300, "intensity_min": 110, "intensity_max": 130, "intensityClass": "coolDown"}
+        ]
+      }
+    },
+    {
+      "date": "2026-07-30",
+      "sport": "Other",
+      "title": "Descanso",
+      "status": "planned",
+      "tssPlanned": 0,
+      "description": "Descanso."
+    },
+    {
+      "date": "2026-07-31",
       "sport": "Other",
       "title": "Descanso o paseo 20min",
       "status": "planned",
@@ -776,25 +1046,57 @@ const PLAN_DATA = {
       "description": "Descanso o paseo muy suave 20min para estirar piernas. Sin correr."
     },
     {
-      "date": "2026-07-10",
+      "date": "2026-08-01",
       "sport": "Other",
-      "title": "Descanso total — vispera 15K",
+      "title": "Descanso",
       "status": "planned",
       "tssPlanned": 0,
-      "description": "Descanso total. Cena rica en hidratos (pasta, arroz). A la cama pronto. Todo el material listo hoy — nada que preparar manana."
+      "description": "Descanso."
     },
     {
-      "date": "2026-07-11",
+      "date": "2026-08-02",
+      "sport": "Other",
+      "title": "Descanso",
+      "status": "planned",
+      "tssPlanned": 0,
+      "description": "Descanso."
+    },
+    {
+      "date": "2026-08-03",
+      "sport": "Other",
+      "title": "Descanso",
+      "status": "planned",
+      "tssPlanned": 0,
+      "description": "Descanso. Preparar material de carrera: zapatillas trail, numero, chip, geles, ropa."
+    },
+    {
+      "date": "2026-08-04",
+      "sport": "Other",
+      "title": "Descanso o paseo 20min — vispera-2",
+      "status": "planned",
+      "tssPlanned": 3,
+      "description": "Descanso o paseo suave 20min. Sin correr. Cena rica en hidratos (pasta, arroz). Todo el material preparado."
+    },
+    {
+      "date": "2026-08-05",
+      "sport": "Other",
+      "title": "Descanso total — vispera Salcedo",
+      "status": "planned",
+      "tssPlanned": 0,
+      "description": "Descanso total. Cena ligera con hidratos. A la cama pronto. Nada que preparar — todo listo desde ayer."
+    },
+    {
+      "date": "2026-08-06",
       "sport": "Run",
-      "title": "CARRERA 15K TRAIL",
+      "title": "CARRERA DE SALCEDO 12K +200m",
       "status": "planned",
       "tssPlanned": null,
-      "description": "Desayuno 2.5-3h antes, rico en hidratos y algo de proteina. Calentamiento: 8-10min trote suave + movilidad + 2-3 progresivos de 15s. ESTRATEGIA: salida conservadora los primeros 2-3km — ve a tu ritmo. Subidas: Z3 sostenido sin disparar el pulso. Bajadas: tecnica controlada, no juegues el tibial por ganar 30s. Nutricion: si la carrera supera 55-60min, gel o 40-50g CHO en la mitad aproximada. REGLA TIBIAL: molestia >2/10 = bajar ritmo de inmediato, no heroicidades.",
+      "description": "Desayuno 2-2.5h antes: hidratos + algo de proteina. Calentamiento: 8-10min trote suave + movilidad + 2-3 progresivos de 15s.\n\nESTRATEGIA: Carrera conocida, objetivo hacer tiempo. Salida conservadora primeros 2km. Subidas: Z3 sostenido sin disparar el pulso. Bajadas: tecnica controlada, no juegues el tibial por ganar 30s. 12K con +200m — si tibial OK y piernas responden, puedes ir a Z3-Z4 bajo en los ultimos 3-4km.\n\nNutricion: si la carrera supera 55min, gel o 40-50g CHO a mitad de carrera.\n\nREGLA TIBIAL: molestia >2/10 = bajar ritmo de inmediato.",
       "raceStrategy": {
-        "km_0_3": "Z2-Z3 bajo, asentarse sin dispararse",
-        "km_3_9": "Z3 sostenido, gestionar subidas sin explotar",
-        "km_9_15": "si piernas responden y tibial OK: Z3-Z4 bajo hacia meta",
-        "nutrition": "gel o 40-50g CHO en km 6-7 si duracion >55min",
+        "km_0_2": "Z2-Z3 bajo, asentarse sin dispararse",
+        "km_2_8": "Z3 sostenido, gestionar subidas sin explotar",
+        "km_8_12": "si tibial OK y piernas responden: Z3-Z4 bajo hacia meta",
+        "nutrition": "gel o 40-50g CHO en km 5-6 si duracion >55min",
         "alarmTibial": "molestia >2/10 = bajar ritmo, no seguir forzando"
       }
     }
