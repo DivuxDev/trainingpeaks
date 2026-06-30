@@ -70,14 +70,14 @@ const PLAN_DATA = {
         "start": "2026-06-29",
         "end": "2026-07-05",
         "tssTarget": 280,
-        "notes": "Primera semana de carga post-Cobreces. Gym lunes (55-60% RM) + progresivos Z3 martes + descanso miercoles + tirada larga jueves + rodaje viernes. ACWR vigilado. TSS planificado 280, esperado ejecutado ~340-380."
+        "notes": "Primera semana de carga post-Cobreces. Gym lunes (55-60% RM) + descanso martes + rodaje Z2 miercoles + calidad 3x6min Z3 jueves + descanso viernes + rodaje suave sabado + tirada larga domingo. TSS planificado ~295."
       },
       {
         "name": "Carga 2",
         "start": "2026-07-06",
         "end": "2026-07-12",
         "tssTarget": 280,
-        "notes": "Segunda semana de carga. Gym lunes (65-70% RM) + rodaje Z2 martes + descanso + tirada larga jueves + rodaje viernes. TSS planificado 280."
+        "notes": "Segunda semana de carga. Gym lunes (65-70% RM) + rodaje Z2 martes + descanso miercoles + calidad 3x8min Z3 jueves + rodaje viernes + fuera sabado (dia 11) + tirada larga domingo. TSS planificado ~350."
       },
       {
         "name": "Carga 3",
@@ -674,78 +674,87 @@ const PLAN_DATA = {
     },
     {
       "date": "2026-06-30",
+      "sport": "Other",
+      "title": "Descanso — agujetas gym + tirada larga",
+      "status": "completed",
+      "tssPlanned": 0,
+      "tssActual": 0,
+      "description": "Descanso. Agujetas de gym (lun 29) + tirada larga monte +500m (dom 28). HRV 96, pulso 39 — supercompensacion nerviosa. Las metricas cardiacas son excelentes pero el musculo esta en reparacion activa: meter calidad hoy comprometeria la sesion del jueves."
+    },
+    {
+      "date": "2026-07-01",
       "sport": "Run",
-      "title": "Progresivos Z3 en subida — 50-55min",
+      "title": "Rodaje Z2 45-50min — FC max 148",
       "status": "planned",
-      "tssPlanned": 70,
-      "description": "Primera sesion de calidad de la semana de carga. Sin series de pista — subidas progresivas trotando.\n\nEJECUCION: 10-12min calentamiento Z2 → 4x5min subida progresiva Z3 bajo-medio (150-162 bpm) con bajada trotando como recuperacion (120-138 bpm, 3-4min) → 5min vuelta a la calma.\n\nPrimeras dos repeticiones: no pasar de 158. En la 3a y 4a puedes llegar a 162-165 en los ultimos 2min si va bien. Tibial >2/10 en cualquier momento: conviertes el resto en rodaje Z2.",
+      "tssPlanned": 60,
+      "description": "FC maxima 148 ppm durante todo el rodaje — si subes, bajas el ritmo o caminas. Terreno llano o suave, sin cuestas ni progresivos. La semana pasada esta sesion se fue a TSS 98; hoy el techo es 60.",
       "structure": {
         "primaryIntensityMetric": "heartRateBpm",
         "steps": [
-          {"name": "Calentamiento Z2", "duration_seconds": 720, "intensity_min": 130, "intensity_max": 150, "intensityClass": "warmUp"},
-          {"type": "repetition", "reps": 4, "steps": [
-            {"name": "Subida progresiva Z3", "duration_seconds": 300, "intensity_min": 150, "intensity_max": 165, "intensityClass": "active"},
-            {"name": "Bajada trote recuperacion", "duration_seconds": 240, "intensity_min": 120, "intensity_max": 138, "intensityClass": "rest"}
-          ]},
-          {"name": "Vuelta a la calma", "duration_seconds": 300, "intensity_min": 110, "intensity_max": 130, "intensityClass": "coolDown"}
+          {"name": "Calentamiento", "duration_seconds": 300, "intensity_min": 115, "intensity_max": 130, "intensityClass": "warmUp"},
+          {"name": "Rodaje Z2", "duration_seconds": 2400, "intensity_min": 130, "intensity_max": 148, "intensityClass": "active"},
+          {"name": "Vuelta a la calma", "duration_seconds": 180, "intensity_min": 110, "intensity_max": 130, "intensityClass": "coolDown"}
         ]
       }
     },
     {
-      "date": "2026-07-01",
-      "sport": "Other",
-      "title": "Descanso",
-      "status": "planned",
-      "tssPlanned": 0,
-      "description": "Descanso obligatorio entre progresivos Z3 y la tirada larga del jueves. No encadenar calidad con tirada sin recuperacion entre medias."
-    },
-    {
       "date": "2026-07-02",
       "sport": "Run",
-      "title": "Tirada larga monte Z2 — 1h25-1h35",
+      "title": "Calidad — 3x6min Z3 subida",
       "status": "planned",
-      "tssPlanned": 120,
-      "description": "Estimulo principal de la semana de carga. Recorrido de monte con desnivel real. FC 130-152 bpm. Ritmo conversacional todo el rato — si no puedes hablar con comodidad, bajas el ritmo. Llevar gel desde el primer km si supera 60min. Ejemplo: gel al minuto 45-50 o en el km 8-9.\n\nTSS planificado 120, apunta a ejecutar ~130-155 sin forzar. Esta tirada es la mas importante de la semana. Tibial >2/10 en cualquier momento: paras o caminas el resto.",
+      "tssPlanned": 72,
+      "description": "Calentamiento 12min Z1-Z2. Luego 3 repeticiones: sube 6min sostenido a Z3 (150-165 ppm), baja trotando muy suave ~5min hasta FC <130. Vuelta a la calma 10min Z1. Busca cuesta de al menos 5-6% de pendiente. La bajada es recuperacion — no la apures. Si tibial >2/10 en cualquier momento, para.",
       "structure": {
         "primaryIntensityMetric": "heartRateBpm",
         "steps": [
-          {"name": "Calentamiento trote suave", "duration_seconds": 600, "intensity_min": 115, "intensity_max": 135, "intensityClass": "warmUp"},
-          {"name": "Tirada larga Z2 monte", "duration_seconds": 4500, "intensity_min": 130, "intensity_max": 152, "intensityClass": "active"},
-          {"name": "Vuelta a la calma", "duration_seconds": 600, "intensity_min": 115, "intensity_max": 130, "intensityClass": "coolDown"}
+          {"name": "Calentamiento Z1-Z2", "duration_seconds": 720, "intensity_min": 115, "intensity_max": 150, "intensityClass": "warmUp"},
+          {"type": "repetition", "reps": 3, "steps": [
+            {"name": "Z3 subida", "duration_seconds": 360, "intensity_min": 150, "intensity_max": 165, "intensityClass": "active"},
+            {"name": "Bajada recuperacion Z1", "duration_seconds": 300, "intensity_min": 110, "intensity_max": 130, "intensityClass": "rest"}
+          ]},
+          {"name": "Vuelta a la calma Z1", "duration_seconds": 600, "intensity_min": 110, "intensity_max": 130, "intensityClass": "coolDown"}
         ]
       }
     },
     {
       "date": "2026-07-03",
-      "sport": "Run",
-      "title": "Rodaje Z2 — 40-45min",
+      "sport": "Other",
+      "title": "Descanso",
       "status": "planned",
-      "tssPlanned": 52,
-      "description": "Rodaje de consolidacion. FC 128-148 bpm. Sin intensidad. Terreno llano o suave. Cierra la semana de carga con estimulo suave. Si las piernas estan muy pesadas tras la tirada de ayer: 35min y casa, sin forzar.",
+      "tssPlanned": 0,
+      "description": "Descanso post-calidad. Separa el jueves del fin de semana."
+    },
+    {
+      "date": "2026-07-04",
+      "sport": "Run",
+      "title": "Rodaje suave Z2 40min",
+      "status": "planned",
+      "tssPlanned": 48,
+      "description": "FC maxima 145 ppm. Terreno llano o suave. Descanso activo — el objetivo es llegar el domingo con las piernas listas, no acumular mas carga.",
       "structure": {
         "primaryIntensityMetric": "heartRateBpm",
         "steps": [
           {"name": "Calentamiento", "duration_seconds": 300, "intensity_min": 115, "intensity_max": 130, "intensityClass": "warmUp"},
-          {"name": "Rodaje Z2", "duration_seconds": 2100, "intensity_min": 128, "intensity_max": 148, "intensityClass": "active"},
-          {"name": "Vuelta a la calma", "duration_seconds": 300, "intensity_min": 110, "intensity_max": 128, "intensityClass": "coolDown"}
+          {"name": "Rodaje Z2 suave", "duration_seconds": 2100, "intensity_min": 130, "intensity_max": 145, "intensityClass": "active"},
+          {"name": "Vuelta a la calma", "duration_seconds": 180, "intensity_min": 110, "intensity_max": 130, "intensityClass": "coolDown"}
         ]
       }
     },
     {
-      "date": "2026-07-04",
-      "sport": "Other",
-      "title": "Descanso",
-      "status": "planned",
-      "tssPlanned": 0,
-      "description": "Descanso. La semana de carga cerro el jueves — el cuerpo necesita 48h para asimilar antes del gym del lunes."
-    },
-    {
       "date": "2026-07-05",
-      "sport": "Other",
-      "title": "Descanso",
+      "sport": "Run",
+      "title": "Tirada larga Z2 monte — 1h15-1h30",
       "status": "planned",
-      "tssPlanned": 0,
-      "description": "Descanso. Preparar el gym del lunes: revision de ejercicios, sueno 8h+."
+      "tssPlanned": 115,
+      "description": "Tirada aerobica Z2 en monte. FC media objetivo 140-148 ppm. Gel o isotonico obligatorio si pasas de 60min. En subidas puedes llegar a Z3 bajo si el terreno lo exige, pero no forces — camina si subes de 155 ppm sostenido. Chequeo tibial cada 20-25min: cualquier >2/10 significa reducir ritmo o parar.",
+      "structure": {
+        "primaryIntensityMetric": "heartRateBpm",
+        "steps": [
+          {"name": "Calentamiento trote suave", "duration_seconds": 600, "intensity_min": 115, "intensity_max": 135, "intensityClass": "warmUp"},
+          {"name": "Tirada larga Z2 monte", "duration_seconds": 3900, "intensity_min": 130, "intensity_max": 150, "intensityClass": "active"},
+          {"name": "Vuelta a la calma", "duration_seconds": 600, "intensity_min": 115, "intensity_max": 130, "intensityClass": "coolDown"}
+        ]
+      }
     },
     {
       "date": "2026-07-06",
@@ -758,15 +767,15 @@ const PLAN_DATA = {
     {
       "date": "2026-07-07",
       "sport": "Run",
-      "title": "Rodaje Z2 — 50min",
+      "title": "Rodaje base Z2 45min",
       "status": "planned",
-      "tssPlanned": 62,
-      "description": "Rodaje aerobico solido. FC 130-150 bpm. Terreno llano o monte suave. Sin series ni progresivos. Si las piernas estan cargadas del gym: 45min y suficiente.",
+      "tssPlanned": 55,
+      "description": "FC maxima 148 ppm. 45 minutos continuos sin cuestas ni progresivos. Rodaje de base previo a la calidad del jueves.",
       "structure": {
         "primaryIntensityMetric": "heartRateBpm",
         "steps": [
           {"name": "Calentamiento", "duration_seconds": 300, "intensity_min": 115, "intensity_max": 130, "intensityClass": "warmUp"},
-          {"name": "Rodaje Z2", "duration_seconds": 2700, "intensity_min": 130, "intensity_max": 150, "intensityClass": "active"},
+          {"name": "Rodaje Z2", "duration_seconds": 2400, "intensity_min": 130, "intensity_max": 148, "intensityClass": "active"},
           {"name": "Vuelta a la calma", "duration_seconds": 300, "intensity_min": 110, "intensity_max": 130, "intensityClass": "coolDown"}
         ]
       }
@@ -777,21 +786,24 @@ const PLAN_DATA = {
       "title": "Descanso",
       "status": "planned",
       "tssPlanned": 0,
-      "description": "Descanso. Recuperacion entre rodaje y tirada larga del jueves."
+      "description": "Descanso. Recuperacion entre rodaje del martes y calidad del jueves."
     },
     {
       "date": "2026-07-09",
       "sport": "Run",
-      "title": "Tirada larga monte Z2 — 1h30-1h40",
+      "title": "Calidad — 3x8min Z3 subida",
       "status": "planned",
-      "tssPlanned": 130,
-      "description": "Tirada larga principal de la semana de carga 2. FC 130-152 bpm. Terreno de monte con desnivel real. Ritmo conversacional. Llevar gel si supera 60min (40-50g CHO). Tibial >2/10 en cualquier momento: paras o caminas el resto.",
+      "tssPlanned": 80,
+      "description": "Progresion respecto al jue 2 jul (3x6min -> 3x8min). Calentamiento 12min Z1-Z2. Luego 3 reps: sube 8min sostenido a Z3 (150-165 ppm), baja trotando 6min Z1. Vuelta a la calma 10min. Si en el segundo rep llevas mas de 170 ppm de media, reduce la cuesta o recorta a 6min — el estimulo es Z3, no Z4. Si tibial >2/10, para.",
       "structure": {
         "primaryIntensityMetric": "heartRateBpm",
         "steps": [
-          {"name": "Calentamiento trote suave", "duration_seconds": 600, "intensity_min": 115, "intensity_max": 135, "intensityClass": "warmUp"},
-          {"name": "Tirada larga Z2 monte", "duration_seconds": 4800, "intensity_min": 130, "intensity_max": 152, "intensityClass": "active"},
-          {"name": "Vuelta a la calma", "duration_seconds": 600, "intensity_min": 115, "intensity_max": 130, "intensityClass": "coolDown"}
+          {"name": "Calentamiento Z1-Z2", "duration_seconds": 720, "intensity_min": 115, "intensity_max": 150, "intensityClass": "warmUp"},
+          {"type": "repetition", "reps": 3, "steps": [
+            {"name": "Z3 subida", "duration_seconds": 480, "intensity_min": 150, "intensity_max": 165, "intensityClass": "active"},
+            {"name": "Bajada recuperacion Z1", "duration_seconds": 360, "intensity_min": 110, "intensity_max": 130, "intensityClass": "rest"}
+          ]},
+          {"name": "Vuelta a la calma Z1", "duration_seconds": 600, "intensity_min": 110, "intensity_max": 130, "intensityClass": "coolDown"}
         ]
       }
     },
@@ -814,18 +826,26 @@ const PLAN_DATA = {
     {
       "date": "2026-07-11",
       "sport": "Other",
-      "title": "Descanso",
+      "title": "Descanso — fuera de casa",
       "status": "planned",
       "tssPlanned": 0,
-      "description": "Descanso. Fin de la semana de carga 2."
+      "description": "Fuera de casa. Descanso. Si hay opcion de pasear, adelante, pero sin presion de carga."
     },
     {
       "date": "2026-07-12",
-      "sport": "Other",
-      "title": "Descanso",
+      "sport": "Run",
+      "title": "Tirada larga Z2 monte — 1h30-1h45",
       "status": "planned",
-      "tssPlanned": 0,
-      "description": "Descanso. Preparar la semana de carga 3 del lunes."
+      "tssPlanned": 130,
+      "description": "Progresion respecto al dom 5 jul (1h15-1h30 -> 1h30-1h45). FC media objetivo 140-148 ppm. Gel obligatorio — uno cada 45min. En subidas puedes llegar a Z3 bajo puntualmente, pero si te quedas por encima de 155 ppm sostenido, camina. Chequeo tibial cada 20-25min: >2/10 significa reducir ritmo inmediatamente.",
+      "structure": {
+        "primaryIntensityMetric": "heartRateBpm",
+        "steps": [
+          {"name": "Calentamiento trote suave", "duration_seconds": 600, "intensity_min": 115, "intensity_max": 135, "intensityClass": "warmUp"},
+          {"name": "Tirada larga Z2 monte", "duration_seconds": 5100, "intensity_min": 130, "intensity_max": 150, "intensityClass": "active"},
+          {"name": "Vuelta a la calma", "duration_seconds": 600, "intensity_min": 115, "intensity_max": 130, "intensityClass": "coolDown"}
+        ]
+      }
     },
     {
       "date": "2026-07-13",
